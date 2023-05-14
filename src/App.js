@@ -8,7 +8,7 @@ import { UpdateEmployee } from './MyComponents/UpdateEmployee';
 import { Error } from './MyComponents/Error';
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='employee_management_system'>
     <Header/>
     <Routes>
       <Route path="/" element={<EmpList/>}></Route>

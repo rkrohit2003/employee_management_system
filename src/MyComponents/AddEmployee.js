@@ -25,7 +25,7 @@ export const AddEmployee = () => {
       address: address
     };
     setEmployees([...employees, newEmployee]);
-    window.location='/';
+    window.location='/employee_management_system';
   }
 
   return (

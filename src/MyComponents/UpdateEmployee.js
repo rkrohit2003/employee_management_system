@@ -41,7 +41,8 @@ export const UpdateEmployee = () => {
       return e;
     });
     localStorage.setItem('employees', JSON.stringify(updatedEmployees));
-    window.location="/";
+    // Changed window location from "/" to "/employee_management_system/"
+    window.location="/employee_management_system/";
   };
   
 
